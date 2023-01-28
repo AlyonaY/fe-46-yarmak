@@ -34,7 +34,7 @@ font-size: 36px;
 line-height: 42px;
 }
 
-.separator{
+.about__separator{
     display: flex;
     border-top: 1px solid #EC7979;
     width: 170px;
