@@ -1,19 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .about{
+    width: 1510px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.about__container{
     width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
 }
-.container{
-    /* padding-top: 40px; */
+
+.about__header{
+    padding-top: 25px;
 }
-.about__title{
+.about__title h2{
     align-items: center;
     text-align: center;
     height: 169px;
     display: flex;
     justify-content: center;
 }
+
 h2{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -21,14 +33,16 @@ font-weight: 400;
 font-size: 36px;
 line-height: 42px;
 }
+
 .separator{
-    display: block;
+    display: flex;
     border-top: 1px solid #EC7979;
     width: 170px;
+    align-items: center;
     margin: auto;
 }
 
-.about__description{    
+.about__description h5{    
 color: #86878B;
 margin: 40px;
 align-items: center;
@@ -45,9 +59,19 @@ line-height: 21px;
 margin: 0;
 }
 
+.about__items{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 58px;
+    width: 1170px;
+}
+
 .about__item{
     max-width: 370px;
     flex-direction: column;
+    display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .about__item-header{
@@ -55,9 +79,10 @@ margin: 0;
     align-items: center;
   text-align: center;  
   justify-content: center;
-  margin-top: 110px;
+  margin-top: 70px;
   margin-bottom: 39px;
 }
+
 .about__item-icon{
 height: 92px;
 width: 92px;
@@ -96,7 +121,9 @@ text-transform: capitalize;
     display: flex;
     color: #000000;
 }
-.about__items{
-    display: flex;
+
+.about__item-description{
+    padding-top: 8px;
 }
+
 
