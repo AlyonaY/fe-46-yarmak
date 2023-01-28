@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+background-color: red;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+background-color: greenyellow;
+}
+
+#some-item{
+    width: 100px;
+    height: 100px;
+background-color: purple;
+}
