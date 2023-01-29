@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+/* Не используй фиксированную ширину */
 .about{
     width: 1510px;
     margin: auto;
@@ -7,6 +8,7 @@
     align-items: center;
 }
 
+/* Не используй фиксированную ширину */
 .about__container{
     width: 1170px;
     display: flex;
@@ -26,6 +28,8 @@
     justify-content: center;
 }
 
+
+/* Примени основной шрифт к главному родителю и все дочерние элементы его унаследуют, тот шрифт который используется реже, переопределяй локально в нужном классе */
 h2{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
