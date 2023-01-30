@@ -38,7 +38,8 @@
     border-top: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
-    border-bottom: 1px solid white !important;
+    border-bottom: 1px solid white !important; 
+    /* Импортант??? Точно надо? */
     border-top-left-radius:5%;
     border-top-right-radius: 5%;
     color:#333333;
@@ -106,7 +107,7 @@ justify-content: center;
     border: 2px solid transparent;
     cursor: pointer;
     display: inline-block;
-    font-family: Open Sans;
+    font-family: Open Sans; /* Забыла ковычки */
     font-style: normal;
     font-size: 18px;
     font-weight: 600;

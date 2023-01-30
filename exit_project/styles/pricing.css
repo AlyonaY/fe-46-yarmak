@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+
+/* Не используй фиксированную ширину */
 .pricing{
     width: 1510px;
     margin: auto;
@@ -8,6 +10,8 @@
     background-color: #F5F5F5;
 }
 
+
+/* Не используй фиксированную ширину */
 .pricing__container{
     width: 1170px;
     display: flex;
