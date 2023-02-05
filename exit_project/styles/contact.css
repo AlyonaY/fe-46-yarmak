@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.contact {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.contact__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 722px;
+  flex-direction: column;
+}
+
+.contact__title {
+  padding-top: 50px;
+}
+
+.contact__description {
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.contact__title h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  color: #000000;
+}
+
+.contact__description h5 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #86878b;
+}
+
+.contact__download-button {
+  background-color: #ec7979;
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  height: 58px;
+  width: 370px;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.contact__download-button:hover{
+  border: 2px solid #EC7979;
+  color: #EC7979;
+  background-color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+.contact__button {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.contact__footer-text input{
+  height: 19px;
+  width: 570px;
+  border: 2px solid transparent;
+  color: #EC7979;
+  outline: none;
+}
+
+.contact__footer{
+  padding-top: 44px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  width: 100%;
+  height: 244px;
+}
+
+.contact__footer-left{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact__footer-right{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact__footer-text::placeholder{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+color: #BDBDBD;
+}
+
