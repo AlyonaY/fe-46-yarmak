@@ -2,7 +2,6 @@
 
 /* Не используй фиксированную ширину */
 .about{
-    width: 1510px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -10,7 +9,6 @@
 
 /* Не используй фиксированную ширину */
 .about__container{
-    width: 1170px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,14 +34,6 @@ h2{
 font-weight: 400;
 font-size: 36px;
 line-height: 42px;
-}
-
-.about__separator{
-    display: flex;
-    border-top: 1px solid #EC7979;
-    width: 170px;
-    align-items: center;
-    margin: auto;
 }
 
 .about__description h5{    

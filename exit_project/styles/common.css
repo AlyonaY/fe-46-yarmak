@@ -1,0 +1,14 @@
+.separator{
+    display: flex;
+    width: 170px;
+    align-items: center;
+    margin: auto;
+}
+
+.separator__white{
+    border-top: 1px solid #FFFFFF;
+}
+
+.separator__red{
+    border-top: 1px solid #EC7979;
+}
