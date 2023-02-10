@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-/* Не используй фиксированную ширину */
 .about{
     margin: auto;
     display: flex;
     align-items: center;
 }
 
-/* Не используй фиксированную ширину */
 .about__container{
     display: flex;
     align-items: center;
@@ -27,11 +25,7 @@
 }
 
 
-/* Примени основной шрифт к главному родителю и все дочерние элементы его унаследуют, тот шрифт который используется реже, переопределяй локально в нужном классе */
-h2{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-font-weight: 400;
+h2{    
 font-size: 36px;
 line-height: 42px;
 }
@@ -45,9 +39,6 @@ max-height: 21px;
 }
 
 h5{
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 margin: 0;

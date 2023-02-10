@@ -4,25 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/fe-46-yarmak/exit_project/styles/reset.css" rel="stylesheet" />
-    <link href="/fe-46-yarmak/exit_project/styles/about.css" rel="stylesheet" />
-    <link href="/fe-46-yarmak/exit_project/styles/tabs.css" rel="stylesheet" />
-    <link
-      href="/fe-46-yarmak/exit_project/styles/banner.css"
-      rel="stylesheet"
-    />
-    <link
-      href="/fe-46-yarmak/exit_project/styles/common.css"
-      rel="stylesheet"
-    />
-    <link
-      href="/fe-46-yarmak/exit_project/styles/pricing.css"
-      rel="stylesheet"
-    />
-    <link
-      href="/fe-46-yarmak/exit_project/styles/contact.css"
-      rel="stylesheet"
-    />
+    <link href="./styles/reset.css" rel="stylesheet" />
+    <link href="./styles/about.css" rel="stylesheet" />
+    <link href="./styles/banner.css" rel="stylesheet" />
+    <link href="./styles/common.css" rel="stylesheet" />
+    <link href="./styles/tabs.css" rel="stylesheet" />
+    <link href="./styles/pricing.css" rel="stylesheet" />
+    <link href="./styles/contact.css" rel="stylesheet" />
     <title>Exit project</title>
   </head>
   <body>
@@ -80,7 +68,7 @@
             <div class="about__title">
               <h2>WHY THIS IS AWESOME</h2>
             </div>
-            <span class="separator separator__red"></span>
+            <span class="separator separator_red"></span>
             <div class="about__description">
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
             </div>
@@ -167,7 +155,7 @@
             <div class="pricing__title">
               <h2>pricing options</h2>
             </div>
-            <span class="separator separator__red"></span>
+            <span class="separator separator_red"></span>
             <div class="pricing__description">
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
             </div>
@@ -223,13 +211,13 @@
       </div>
     </section>
 
-    <section>
+    <section class="banner">
       <div class="banner__container">
         <div class="banner__wrapper">
           <div class="banner__title">
             <h2>STYLISH AXURE DESIGN</h2>
           </div>
-          <span class="separator separator__white"></span>
+          <span class="separator separator_white"></span>
           <div class="banner__description">
             <h5>
               Use the sections you need, remove the ones you don't. Create
@@ -243,38 +231,34 @@
       </div>
     </section>
 
-    <section>
+    <section class="contact">
       <div class="contact__container">
         <div class="contact__wrapper">
           <div class="contact__header">
             <div class="contact__title">
               <h2>contact us</h2>
             </div>
-            <span class="separator separator__red"></span>
+            <span class="separator separator_red"></span>
             <div class="contact__description">
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
             </div>
           </div>
           <div class="contact__footer">
             <div class="contact__footer-left">
-              <div class="contact__footer-text">
+              <form>
                 <input type="text" placeholder="Name" />
-              </div>
-              <span class="line"></span>
-              <div class="contact__footer-text">
+                <span class="line"></span>
                 <input type="text" placeholder="Email" />
-              </div>
-              <span class="line"></span>
-              <div class="contact__footer-text">
+                <span class="line"></span>
                 <input type="text" placeholder="Password" />
-              </div>
-              <span class="line"></span>
+                <span class="line"></span>
+              </form>
             </div>
             <div class="contact__footer-right">
-              <div class="contact__footer-text">
+              <form>
                 <input type="text" placeholder="Message" />
-              </div>
-              <span class="line"></span>
+                <span class="line"></span>
+              </form>
             </div>
           </div>
           <div class="contact__button">
