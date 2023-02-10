@@ -48,7 +48,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 25px;
   display: flex;
   align-items: center;
@@ -100,14 +100,12 @@ input[type=text]::placeholder {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 16px;
   color: #bdbdbd;
 }
 
 input[type=text] {
-  height: 19px;
-  width: 570px;
+    width: 570px;
   border: 2px solid transparent;
   color: #ec7979;
   outline: none;
