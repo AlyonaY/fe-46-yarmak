@@ -31,4 +31,27 @@ color: rgba(255, 255, 255, 0.5);
     transition-duration: 0.5s;
   }
 
- 
+  @media (max-width:1300px){
+    .footer__icons{
+                padding: 35px 370px 25px;
+    }
+  }
+
+  @media (max-width:1024px){
+    .footer__icons{
+                padding: 35px 270px 25px;
+    }
+  }
+
+  @media (max-width:820px){
+    .footer__icons{
+                padding: 35px 50px 25px;
+    }
+  }
+  
+
+  @media (max-width:320px){
+    .footer__icons{
+                padding: 35px 15px 25px;
+    }
+  }
