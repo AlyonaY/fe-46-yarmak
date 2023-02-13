@@ -62,9 +62,9 @@
 }
 
 @media (max-width: 1024px) {
-    .social_media {
-        min-height: 105px;
-      }
+  .social_media {
+    min-height: 105px;
+  }
   .social_media__container {
     padding: 0 15px;
   }
@@ -74,17 +74,17 @@
   }
   .social_media__title {
     padding: 0;
-    }
-    .social_media__title h4{
-        font-size: 18px;
-line-height: 25px;
-    }
+  }
+  .social_media__title h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
   .social_media__description {
     padding: 0;
     font-size: 14px;
     line-height: 16px;
   }
-  .social_media__description h5{
+  .social_media__description h5 {
     font-size: 14px;
     line-height: 16px;
   }

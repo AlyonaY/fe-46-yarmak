@@ -13,18 +13,14 @@ color: rgba(255, 255, 255, 0.5);
     padding: 35px 470px 25px;
 }
 
-.footer_dark{
+footer{
     display: flex;
     margin: auto;
+    flex-direction: column;
     max-width: 1510px;
     max-height: 164px;
     background-color: #000000;
 }
-
-  footer{
-    width: 100%;
-    height: 100%;
-  }
 
   .footer__icons img:hover{
     scale: 1.2;
