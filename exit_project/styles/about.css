@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 .about{
     margin: auto;
     display: flex;
@@ -24,24 +22,12 @@
     justify-content: center;
 }
 
-
-h2{    
-font-size: 36px;
-line-height: 42px;
-}
-
 .about__description h5{    
 color: #86878B;
 margin: 40px;
 align-items: center;
 text-align: center;
 max-height: 21px;
-}
-
-h5{
-font-size: 18px;
-line-height: 21px;
-margin: 0;
 }
 
 .about__items{

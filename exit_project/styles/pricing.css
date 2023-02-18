@@ -24,11 +24,6 @@
     text-transform: uppercase;
 }
 
-h2{    
-font-size: 36px;
-line-height: 42px;
-}
-
 .separator{
     display: flex;
     border-top: 1px solid #EC7979;
@@ -43,12 +38,6 @@ margin-top: 40px;
 align-items: center;
 text-align: center;
 max-height: 21px;
-}
-
-h5{
-font-size: 18px;
-line-height: 21px;
-margin: 0;
 }
 
 .pricing__options{
