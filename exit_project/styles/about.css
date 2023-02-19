@@ -76,7 +76,7 @@ height: 100px;
 
 }
 
-h4{
+.about__item-title h4{
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
