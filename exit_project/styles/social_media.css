@@ -2,7 +2,7 @@
   display: flex;
   margin: auto;
   max-width: 1510px;
-  max-height: 140px;
+  min-height: 140px;
   background-color: #f8efef;
 }
 
@@ -34,7 +34,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 33px;
   display: flex;
   align-items: center;
@@ -50,7 +50,6 @@
 
 .social_media__description {
   padding-top: 9px;
-  max-height: 42px;
 }
 
 .social_media__description h5 {
@@ -60,7 +59,6 @@
   align-items: center;
   color: #86878b;
   margin: 0;
-  /* max-height: 42px; */
 }
 
 @media (max-width: 1024px) {
