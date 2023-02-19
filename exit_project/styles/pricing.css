@@ -1,19 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-
-/* Не используй фиксированную ширину */
 .pricing{
-    width: 1510px;
     margin: auto;
     display: flex;
     align-items: center;
     background-color: #F5F5F5;
 }
 
-
-/* Не используй фиксированную ширину */
 .pricing__container{
-    width: 1170px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,15 +24,7 @@
     text-transform: uppercase;
 }
 
-h2{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 42px;
-}
-
-.pricing__separator{
+.separator{
     display: flex;
     border-top: 1px solid #EC7979;
     width: 170px;
@@ -54,15 +38,6 @@ margin-top: 40px;
 align-items: center;
 text-align: center;
 max-height: 21px;
-}
-
-h5{
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-margin: 0;
 }
 
 .pricing__options{
@@ -104,8 +79,6 @@ color: #FFFFFF;
     background: #333333;
 border: 2px solid #F5F5F5;
 Height: 100px;
-font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -120,9 +93,6 @@ color: #FFFFFF;
     background: #333333;
 border: 2px solid #F5F5F5;
 Height: 50px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 display: flex;
@@ -136,10 +106,7 @@ color: rgba(255, 255, 255, 0.5);
     background: #FFFFFF;
 border: 2px solid #F5F5F5;    
 height: 50px;
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
+    font-size: 18px;
 line-height: 21px;
 display: flex;
 justify-content: center;

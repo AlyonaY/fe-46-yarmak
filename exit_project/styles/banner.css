@@ -1,0 +1,155 @@
+.banner__container {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(/fe-46-yarmak/exit_project/images/banner_background.svg);
+  min-height: 442px;
+  background-size: cover;
+}
+
+.banner__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner__description {
+  padding-bottom: 37px;
+  padding-top: 40px;
+}
+
+.banner__title {
+  margin-top: 50px;
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__button {
+  padding-bottom: 50px;
+  padding-top: 36px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__download-button {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #ffffff;
+  height: 58px;
+  width: 370px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.banner__download-button:hover {
+  border: 2px solid #ec7979;
+  color: #ec7979;
+  transition-duration: 0.5s;
+}
+
+.banner__title h2 {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.banner__description h5 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .banner__container {
+    min-height: 358px;
+  }
+  .banner__title {
+    min-height: 120px;
+  }
+  .banner__description {
+    padding-bottom: 16px;
+    padding-top: 32px;
+  }
+  .banner__download-button {
+    width: 318px;
+  }
+  .banner__button {
+    padding-bottom: 50px;
+    padding-top: 16px;
+  }
+  .banner__title h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .banner__description h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .banner__download-button {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 750px) {
+  .banner__wrapper {
+    padding: 0 16px;
+  }
+  .banner__download-button {
+    width: 287px;
+  }
+}
+
+@media (max-width: 320px) {
+  .banner__container {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 50%
+      ),
+      url(/fe-46-yarmak/exit_project/images/banner_mobile.svg);
+  }
+  .banner__title {
+    min-height: 120px;
+    margin-top: 0px;
+  }
+  .banner__description {
+    padding-bottom: 33px;
+    padding-top: 16px;
+  }
+  .banner__button {
+    padding-bottom: 58px;
+    padding-top: 33px;
+    width: 100%;
+  }
+  .banner__title h2 {
+    font-size: 22px;
+  }
+  .banner__description h5 {
+    font-size: 13px;
+  }
+  .banner__download-button {
+    min-width: none;
+  }
+}

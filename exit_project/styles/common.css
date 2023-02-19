@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url(./about.css);
+@import url(./banner.css);
+@import url(./contact.css);
+@import url(./pricing.css);
+@import url(./reset.css);
+@import url(./tabs.css);
 
 .separator{
     display: flex;
@@ -15,28 +21,7 @@
     border-top: 1px solid #EC7979;
 }
 
-.line{
-    width: 570px;
-    height: 3px;
-    align-items: center;
-    margin: 0 auto;
-    border-top: 1px solid #BDBDBD;
-}
-
-h2{
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-}
-
-h5{
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    margin: 0;
-}
-
-h4{
+body{
     font-family: "Raleway";
     font-style: normal;
     font-weight: 400;

@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-/* Не используй фиксированную ширину */
 .about{
-    width: 1510px;
     margin: auto;
     display: flex;
     align-items: center;
 }
 
-/* Не используй фиксированную ширину */
 .about__container{
-    width: 1170px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,39 +22,12 @@
     justify-content: center;
 }
 
-
-/* Примени основной шрифт к главному родителю и все дочерние элементы его унаследуют, тот шрифт который используется реже, переопределяй локально в нужном классе */
-h2{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 42px;
-}
-
-.about__separator{
-    display: flex;
-    border-top: 1px solid #EC7979;
-    width: 170px;
-    align-items: center;
-    margin: auto;
-}
-
 .about__description h5{    
 color: #86878B;
 margin: 40px;
 align-items: center;
 text-align: center;
 max-height: 21px;
-}
-
-h5{
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-margin: 0;
 }
 
 .about__items{

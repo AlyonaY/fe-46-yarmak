@@ -1,0 +1,197 @@
+.contact {
+  display: flex;
+  margin: auto;
+  max-width: 1510px;
+}
+.contact__container {
+  display: flex;
+  width: 100%;
+}
+
+.contact__wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.contact__title {
+  padding-top: 50px;
+}
+
+.contact__description {
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+
+.contact__title h2 {
+  font-size: 36px;
+  line-height: 42px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  color: #000000;
+}
+
+.contact__description h5 {
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #86878b;
+}
+
+.contact__download-button {
+  background-color: #ec7979;
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  height: 58px;
+  width: 370px;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.contact__download-button:hover {
+  border: 2px solid #ec7979;
+  color: #ec7979;
+  background-color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+.contact__button {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__footer {
+  display: flex;
+  width: 100%;
+  padding-left: 169px;
+  padding-right: 171px;
+}
+
+.contact__footer-fields {
+  width: 100%;
+  display: flex;
+  min-height: 213px;
+  justify-content: space-between;
+}
+
+.contact__footer-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 44px;
+}
+
+.contact__footer-right {
+  height: 100%;
+  display: flex;
+  width: 50%;
+}
+
+input[type="text"]::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #bdbdbd;
+}
+
+input[type="text"] {
+  border: 2px solid transparent;
+  color: #ec7979;
+  outline: none;
+  padding: 0;
+  border-bottom: 1px solid #bdbdbd;
+  min-height: 35px;
+}
+
+.contact__footer-right textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  color: #ec7979;
+  resize: none;
+}
+
+.contact__footer-right textarea::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #bdbdbd;
+}
+
+@media (max-width: 1024px) {
+  .contact__footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact__footer-fields {
+    flex-direction: column;
+  }
+  .contact__footer-right {
+    width: 100%;
+    min-height: 182px;
+    padding-top: 25px;
+  }
+  .contact__footer-left {
+    width: 100%;
+    min-height: 192px;
+    padding-bottom: 25px;
+  }
+  .contact__title {
+    padding-top: 0;
+  }
+  .contact__description {
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+  .contact__title h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .contact__description h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  form{
+    padding-top: 32px;
+  }
+  .contact__download-button {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

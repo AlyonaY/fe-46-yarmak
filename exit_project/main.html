@@ -4,15 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/fe-46-yarmak/exit_project/styles/reset.css" rel="stylesheet" />
-    <link href="/fe-46-yarmak/exit_project/styles/about.css" rel="stylesheet" />
-    <link href="/fe-46-yarmak/exit_project/styles/tabs.css" rel="stylesheet" />
-    <link
-      href="/fe-46-yarmak/exit_project/styles/pricing.css"
-      rel="stylesheet"
-    />
-    <link href="./styles/footer.css" rel="stylesheet" />
-    <link href="./styles/social_media.css" rel="stylesheet" />
+    <link href="./styles/common.css" rel="stylesheet" />
     <title>Exit project</title>
   </head>
   <body>
@@ -106,8 +98,7 @@
             <div class="about__title">
               <h2>WHY THIS IS AWESOME</h2>
             </div>
-            <span class="about__separator"></span>
-            <!-- Не только about он принадлежит, это независимый блок по БЭМ -->
+            <span class="separator separator_red"></span>
             <div class="about__description">
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
             </div>
@@ -194,7 +185,7 @@
             <div class="pricing__title">
               <h2>pricing options</h2>
             </div>
-            <span class="pricing__separator"></span>
+            <span class="separator separator_red"></span>
             <div class="pricing__description">
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
             </div>
@@ -245,6 +236,59 @@
                 <li>1 gb of space</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="banner__container">
+        <div class="banner__wrapper">
+          <div class="banner__title">
+            <h2>STYLISH AXURE DESIGN</h2>
+          </div>
+          <span class="separator separator_white"></span>
+          <div class="banner__description">
+            <h5>
+              Use the sections you need, remove the ones you don't. Create
+              gorgeous prototypes faster than ever!
+            </h5>
+          </div>
+          <div class="banner__button">
+            <button class="banner__download-button">Download</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact__container">
+        <div class="contact__wrapper">
+          <div class="contact__header">
+            <div class="contact__title">
+              <h2>contact us</h2>
+            </div>
+            <span class="separator separator_red"></span>
+            <div class="contact__description">
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            </div>
+          </div>
+          <div class="contact__footer">
+            <form>
+              <div class="contact__footer-fields">
+                <div class="contact__footer-left">
+                  <input type="text" placeholder="Name" />
+                  <input type="text" placeholder="Email" />
+                  <input type="text" placeholder="Password" />
+                </div>
+                <div class="contact__footer-right">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="contact__button">
+                <button class="contact__download-button" type="submit">Send Message</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
