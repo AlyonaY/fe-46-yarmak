@@ -7,6 +7,7 @@
 @import url(./tabs.css);
 @import url(./social_media.css);
 @import url(./footer.css);
+@import url(./banner_1.css);
 
 .separator{
     display: flex;
@@ -21,6 +22,9 @@
 
 .separator_red{
     border-top: 1px solid #EC7979;
+}
+.separator_no-padding{
+    margin: 0;
 }
 
 body{
