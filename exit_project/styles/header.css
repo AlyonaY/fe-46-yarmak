@@ -39,21 +39,8 @@ header {
   width: 80%;
 }
 .header__menu-items {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-direction: row;
-  justify-content: end;
+  display: flex;  
 }
-
-.header__menu-items ul {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-
 .header__menu-items a {
   min-width: 114px;
   height: 100%;
