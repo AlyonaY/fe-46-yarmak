@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0.5) 50%
     ),
-    url(/fe-46-yarmak/exit_project/images/banner_main.svg);
+    url(../images/banner_1.svg);
   min-height: 1024px;
   background-size: cover;
 }
@@ -238,7 +238,7 @@
         rgba(0, 0, 0, 0.5) 0%,
         rgba(0, 0, 0, 0.5) 50%
       ),
-      url(/fe-46-yarmak/exit_project/images/banner_main-mob.svg);
+      url(.//images/banner_1-mob.svg);
     min-height: 1005px;
     background-size: cover;
   }
