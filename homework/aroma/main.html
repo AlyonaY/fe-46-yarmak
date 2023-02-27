@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/reset.css" rel="stylesheet" />
+    <link href="./styles/index.css" rel="stylesheet" />
+    <title>Aroma</title>
+  </head>
+  <body>
+    <div class="container__review">
+      <form>
+          <div class="review__fields">
+            <div class="review__big-field">
+              <legend>
+                <p>Оставьте свой отзыв на “Ароматическое саше”</p>
+              </legend>
+              <textarea
+                required
+                name="review"
+                placeholder="Ваш отзыв*"
+              ></textarea>
+            </div>
+            <div class="review__small-fields">
+              <input required name="name" type="text" placeholder="Имя*" />
+              <input required name="phone" type="text" placeholder="Телефон*" />
+              <input name="email" type="text" placeholder="Email" />
+            </div>
+          </div>
+          <div class="review__submit-area">
+            <button class="contact__download-button" type="submit">
+              Отправить
+            </button>
+            <div class="checkbox__data_storage">
+              <input
+                checked
+                name="data_storage_agreement"
+                type="checkbox"
+                id="checkbox__data-storage"
+              />
+              <label for="checkbox__data-storage"
+                >Сохранить моё имя, email и адрес сайта в этом браузере для
+                последующих моих комментариев.</label
+              >
+            </div>
+          </div>
+      </form>
+    </div>
+  </body>
+</html>

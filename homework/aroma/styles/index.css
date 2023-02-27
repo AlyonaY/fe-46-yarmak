@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600&family=Montserrat:wght@400;700&display=swap");
+
+.container__review {
+  max-width: 1334px;
+  background: #fbf7f6;
+}
+legend {
+  padding: 24px 0px 12px 50px;
+}
+legend p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #371030;
+}
+.review__fields textarea {
+  min-height: 188px;
+  outline: none;
+  resize: none;
+  background: #f9f0ee;
+  border-radius: 5px;
+  border: none;
+  margin: 13px 50px 15px 50px;
+}
+.review__fields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.review__small-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 50px 15px 50px;
+  width: 100%;
+}
+.review__big-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input[type="text"] {
+  background: #f9f0ee;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  min-width: 387px;
+  min-height: 41px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #371030;
+  padding: 6px 0 6px 25px;
+}
+.review__submit-area {
+  padding: 15px 50px 25px 50px;
+}
+.review__submit-area button {
+  background: #ffb0ba;
+  box-shadow: 3px 3px 0px 3px #de8e98;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #9a3c48;
+  border: none;
+  min-height: 63px;
+  min-width: 250px;
+  margin-right: 15px;
+  padding: 0;
+}
+.review__submit-area button:hover {
+  background: #fc9fab;
+  box-shadow: 3px 3px 0px 3px #de8e98;
+  border-radius: 100px;
+}
+::placeholder {
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  opacity: 0.5;
+}
+textarea {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #371030;
+  padding: 18px 0 18px 25px;
+}
+label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  opacity: 0.5;
+  margin-left: 7px;
+  padding: 0;
+}
+.review__submit-area {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox__data_storage input[type="checkbox"] {
+  display: none;
+}
+.checkbox__data_storage input[type="checkbox"] + label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.checkbox__data_storage input[type="checkbox"]:hover + label:before {
+  background: #ffb0ba;
+  border-radius: 5px;
+}
+.checkbox__data_storage input[type="checkbox"] + label:before {
+  content: "";
+  width: 23px;
+  height: 20px;
+  background-color: #f9f0ee;
+  border-radius: 5px;
+  border: none;
+  margin-right: 15px;
+}
+.checkbox__data_storage input[type="checkbox"]:checked + label:before {
+  content: "";
+  width: 23px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  background: url(../check.svg) center no-repeat
+    #fe95a2;
+}
