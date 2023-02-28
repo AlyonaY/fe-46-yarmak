@@ -4,10 +4,6 @@
   max-width: 1334px;
   background: #fbf7f6;
 }
-fieldset {
-  border-style: none;
-  width: 100%;
-}
 legend {
   padding: 24px 0px 12px 50px;
 }
@@ -147,10 +143,11 @@ label {
   margin-right: 15px;
 }
 .checkbox__data_storage input[type="checkbox"]:checked + label:before {
+  content: "";
   width: 23px;
   height: 20px;
   border-radius: 5px;
   border: none;
-  background: url(/fe-46-yarmak/homework/aroma/check.svg) center no-repeat
+  background: url(../check.svg) center no-repeat
     #fe95a2;
 }
