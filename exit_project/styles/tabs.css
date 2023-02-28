@@ -1,118 +1,121 @@
-.tabs
-{
-    width: 1510px;
-    margin: auto;
-    display: flex;
-    align-items: center;
+.tabs {
+  width: 1510px;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
-.tabs__container{
-    width: 1170px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;    
-    padding-top: 99px;
+.tabs__container {
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 99px;
+}
+.tabs__wrapper {
+  width: 1170px;
+}
+.tabs__radio {
+  display: none;
+}
+.tabs__items{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.tabs__item {
+  cursor: pointer;
+  border: none;
+  color: #333333;
+  height: 40px;
+  width: 205px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tabs__content {
+  width: 100%;
+  border: 1px solid #c6cbcd;
+  display:none;  
 }
 
-.tabs__wrapper{
-    width: 1170px;
+#one:checked ~ .tabs__items #tab-one,
+#two:checked ~ .tabs__items #tab-two,
+#three:checked ~ .tabs__items #tab-three{
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid white;  
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
-.tabs__header  ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-  }
+#one:checked ~ .tabs__all-content #content-one,
+#two:checked ~ .tabs__all-content #content-two,
+#three:checked ~ .tabs__all-content #content-three{
+  display:flex;
+}
 
-  .tabs__header  li{
-    list-style:none;
-  }
+.tabs__content-image {
+  height: 499px;
+  width: 470px;
+}
+.tabs__content-text {
+  width: 570px;
+  margin-right: 30px;
+  margin-left: 100px;
+  justify-content: center;
+}
 
-  .tabs__header a {
-    display: flex;
-    text-align:center;
-    align-items: center;
-    justify-content: center;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid white; 
-    border-top-left-radius:5%;
-    border-top-right-radius: 5%;
-    color:#333333;
-    height: 40px;
-    width: 205px;
+.tabs__content-title h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  height: 124px;
+  justify-content: center;
+}
+.tabs__content-description {
+  padding-top: 27px;
+}
 
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-text-transform: uppercase;
-  }
+.tabs__content-description h5 {
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  height: 210px;
+  justify-content: center;
+}
 
-  .tabs__content{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #C6CBCD;
-  }
-
-  .tabs__content-image{
-    height: 499px;
-    width: 470px;
-  }
-
-  .tabs__content-text{
-    width: 570px;
-    margin-right: 30px;
-    margin-left: 100px;
-    justify-content: center;
-    
-  }
-
-
-  .tabs__content-title h3{
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 41px;
-display: flex;
-align-items: center;
-height: 124px;
-justify-content: center;
-  }
-  .tabs__content-description{
-padding-top: 27px;
-  }
-
-  .tabs__content-description h5{
-    font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: center;
-text-align: left;
-height: 210px;
-justify-content: center;
-  }
-
-.tabs__download-button{
-  background-color: #EC7979;
-    border: 2px solid transparent;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 600;
-    height: 40px;
-    line-height: 36px;
-    color: #FFFFFF;
-    height: 58px;
-    width: 210px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 27px;
+.tabs__download-button {
+  background-color: #ec7979;
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 36px;
+  color: #ffffff;
+  height: 58px;
+  width: 210px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 27px;
 }

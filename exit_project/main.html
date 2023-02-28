@@ -48,43 +48,114 @@
     <section class="tabs">
       <div class="tabs__container">
         <div class="tabs__wrapper">
-          <div class="tabs__header">
-            <ul class="tabs clearfix">
-              <li><a class="active">Tab 1</a></li>
-              <li><a>Tab 2</a></li>
-              <li><a>Tab 3</a></li>
-            </ul>
-          </div>
-          <div class="tabs__content">
-            <div class="tabs__content-text">
-              <div class="tabs__content-title">
-                <h3>Tabs with soft transitioning effect.</h3>
-              </div>
-              <div class="tabs__content-description">
-                <h5>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean<br />
-                  euismod<br />
-                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
-                  et<br />
-                  viverra<br />
-                  justo commodo. Proin sodales pulvinar tempor. Cum sociis
-                  natoque penatibus et magnis dis parturient montes.
-                  <br />
-                  <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean euismod bibendum laoreet.
-                </h5>
-              </div>
-              <div class="tabs__content-button">
-                <button class="tabs__download-button">Download</button>
-              </div>
+            <input
+              class="tabs__radio"
+              id="one"
+              name="group"
+              type="radio"
+              checked
+            />
+            <input class="tabs__radio" id="two" name="group" type="radio" />
+            <input class="tabs__radio" id="three" name="group" type="radio" />
+            <div class="tabs__items">
+              <label class="tabs__item" id="tab-one" for="one">Tab 1</label>
+              <label class="tabs__item" id="tab-two" for="two">Tab 2</label>
+              <label class="tabs__item" id="tab-three" for="three">Tab 3</label>
             </div>
-            <div class="tabs__content-image">
-              <img
-                src="/fe-46-yarmak/exit_project/images/liberty_statue.svg"
-                alt="liberty_statue"
-              />
+          <div class="tabs__all-content">
+            <div class="tabs__content" id="content-one">
+              <div class="tabs__content-text">
+                <div class="tabs__content-title">
+                  <h3>Tabs with soft transitioning effect.</h3>
+                </div>
+                <div class="tabs__content-description">
+                  <h5>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean<br />
+                    euismod<br />
+                    bibendum laoreet. Proin gravida dolor sit amet lacus
+                    accumsan et<br />
+                    viverra<br />
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                    natoque penatibus et magnis dis parturient montes.
+                    <br />
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </h5>
+                </div>
+                <div class="tabs__content-button">
+                  <button class="tabs__download-button">Download</button>
+                </div>
+              </div>
+              <div class="tabs__content-image">
+                <img
+                  src="/fe-46-yarmak/exit_project/images/liberty_statue.svg"
+                  alt="liberty_statue"
+                />
+              </div>
+            </div><div class="tabs__content" id="content-two">
+              <div class="tabs__content-text">
+                <div class="tabs__content-title">
+                  <h3>Tabs with soft transitioning effect.-2</h3>
+                </div>
+                <div class="tabs__content-description">
+                  <h5>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean<br />
+                    euismod<br />
+                    bibendum laoreet. Proin gravida dolor sit amet lacus
+                    accumsan et<br />
+                    viverra<br />
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                    natoque penatibus et magnis dis parturient montes.
+                    <br />
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </h5>
+                </div>
+                <div class="tabs__content-button">
+                  <button class="tabs__download-button">Download</button>
+                </div>
+              </div>
+              <div class="tabs__content-image">
+                <img
+                  src="/fe-46-yarmak/exit_project/images/liberty_statue.svg"
+                  alt="liberty_statue"
+                />
+              </div>
+            </div><div class="tabs__content" id="content-three">
+              <div class="tabs__content-text">
+                <div class="tabs__content-title">
+                  <h3>Tabs with soft transitioning effect-3.</h3>
+                </div>
+                <div class="tabs__content-description">
+                  <h5>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean<br />
+                    euismod<br />
+                    bibendum laoreet. Proin gravida dolor sit amet lacus
+                    accumsan et<br />
+                    viverra<br />
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                    natoque penatibus et magnis dis parturient montes.
+                    <br />
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </h5>
+                </div>
+                <div class="tabs__content-button">
+                  <button class="tabs__download-button">Download</button>
+                </div>
+              </div>
+              <div class="tabs__content-image">
+                <img
+                  src="/fe-46-yarmak/exit_project/images/liberty_statue.svg"
+                  alt="liberty_statue"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -286,7 +357,9 @@
                 </div>
               </div>
               <div class="contact__button">
-                <button class="contact__download-button" type="submit">Send Message</button>
+                <button class="contact__download-button" type="submit">
+                  Send Message
+                </button>
               </div>
             </form>
           </div>
@@ -294,17 +367,17 @@
       </div>
     </section>
 
-      <footer>
-        <div class="footer__icons">
-          <a href="#"><img src="./images/facebook.svg" alt="facebook" /></a>
-          <a href="#"><img src="./images/twitter.svg" alt="twitter" /></a>
-          <a href="#"><img src="./images/linkedin.svg" alt="linkedin" /></a>
-          <a href="#"><img src="./images/pinterest.svg" alt="pinterest" /></a>
-          <a href="#"><img src="./images/insta.svg" alt="insta" /></a>
-          <a href="#"><img src="./images/git.svg" alt="git" /></a>
-          <a href="#"><img src="./images/rss.svg" alt="rss" /></a>
-        </div>
-        <h5 class="footer__copyright">&copy; 2015 Axure Themes</h5>
-      </footer>
+    <footer>
+      <div class="footer__icons">
+        <a href="#"><img src="./images/facebook.svg" alt="facebook" /></a>
+        <a href="#"><img src="./images/twitter.svg" alt="twitter" /></a>
+        <a href="#"><img src="./images/linkedin.svg" alt="linkedin" /></a>
+        <a href="#"><img src="./images/pinterest.svg" alt="pinterest" /></a>
+        <a href="#"><img src="./images/insta.svg" alt="insta" /></a>
+        <a href="#"><img src="./images/git.svg" alt="git" /></a>
+        <a href="#"><img src="./images/rss.svg" alt="rss" /></a>
+      </div>
+      <h5 class="footer__copyright">&copy; 2015 Axure Themes</h5>
+    </footer>
   </body>
 </html>
