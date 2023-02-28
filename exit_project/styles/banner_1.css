@@ -1,40 +1,40 @@
-.banner_1__container {
+.banner_main__container {
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0.5) 50%
     ),
-    url(/fe-46-yarmak/exit_project/images/banner_1.svg);
+    url(../images/banner_1.svg);
   min-height: 1024px;
   background-size: cover;
 }
 
-.banner_1__wrapper {
+.banner_main__wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   height: 100%;
 }
-.banner_1__text-part {
+.banner_main__text-part {
   display: flex;
   flex-direction: column;
   width: 58%;
   padding-left: 170px;
 }
-.banner_1__form-part {
+.banner_main__form-part {
   display: flex;
   flex-direction: column;
   width: 42%;
   padding-right: 170px;
 }
-.banner_1__button {
+.banner_main__button {
   margin-bottom: 185px;
   margin-top: 21px;
   display: flex;
   align-items: center;
 }
-.banner_1__download-button {
+.banner_main__download-button {
   background-color: transparent;
   border: 2px solid white;
   cursor: pointer;
@@ -53,46 +53,46 @@
   align-items: center;
   text-transform: capitalize;
 }
-.banner_1__download-button:hover {
+.banner_main__download-button:hover {
   border: 2px solid #ec7979;
   color: #ec7979;
   transition-duration: 0.5s;
 }
-.banner_1__title {
+.banner_main__title {
   max-width: 670px;
   min-height: 168px;
   margin-top: 25px;
   margin-bottom: 55px;
 }
-.banner_1__title h1 {
+.banner_main__title h1 {
   font-size: 48px;
   line-height: 56px;
   text-transform: uppercase;
   color: #ffffff;
 }
-.banner_1__description {
+.banner_main__description {
   max-width: 270px;
   max-height: 42px;
   margin-top: 42px;
   margin-bottom: 21px;
 }
-.banner_1__description h5 {
+.banner_main__description h5 {
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
   margin: 0;
 }
-.banner_1__icon {
+.banner_main__icon {
   margin-top: 283px;
   margin-bottom: 25px;
 }
-.banner_1__form-area {
+.banner_main__form-area {
   background-color: #ffffff;
   border-radius: 10px;
   max-width: 470px;
   min-height: 450px;
 }
-.banner_1__form-title {
+.banner_main__form-title {
   min-height: 90px;
   margin-bottom: 45px;
   display: flex;
@@ -100,7 +100,7 @@
   text-align: center;
   justify-content: center;
 }
-.banner_1__form-title h4 {
+.banner_main__form-title h4 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -109,18 +109,18 @@
   text-transform: uppercase;
   color: #333333;
 }
-.banner_1__form-area form {
+.banner_main__form-area form {
   display: flex;
   flex-direction: column;
 }
-.banner_1__form-fields {
+.banner_main__form-fields {
   height: 177px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0 50px 0 50px;
 }
-.banner_1__form-fields input[type="text"]::placeholder {
+.banner_main__form-fields input[type="text"]::placeholder {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -128,7 +128,7 @@
   color: #bdbdbd;
 }
 
-.banner_1__form-fields input[type="text"] {
+.banner_main__form-fields input[type="text"] {
   border: 2px solid transparent;
   color: #ec7979;
   outline: none;
@@ -136,11 +136,11 @@
   border-bottom: 1px solid #bdbdbd;
   min-height: 35px;
 }
-.banner_1__form-fields-button {
+.banner_main__form-fields-button {
   width: 100%;
   padding-top: 81px;
 }
-.banner_1__form-fields-download-button {
+.banner_main__form-fields-download-button {
   background-color: #ec7979;
   cursor: pointer;
   font-family: "Open Sans";
@@ -158,170 +158,170 @@
   border-radius: 0px 0px 10px 10px;
 }
 
-.banner_1-free {
+.banner_main-free {
   color: #ec7979;
 }
 
 @media (max-width: 1454px) {
-  .banner_1__form-part {
+  .banner_main__form-part {
     padding-right: 20px;
   }
 }
 @media (max-width: 1254px) {
-  .banner_1__text-part {
+  .banner_main__text-part {
     padding-left: 115px;
   }
 }
 @media (max-width: 1024px) {
-    .banner_1__container{
+    .banner_main__container{
         min-height: 800px;
     }
-  .banner_1__icon {
+  .banner_main__icon {
     margin-top: 136px;
     margin-bottom: 19px;
   }
-  .banner_1__title h1 {
+  .banner_main__title h1 {
     font-size: 36px;
     line-height: 42px;
   }
-  .banner_1__title {
+  .banner_main__title {
     margin-top: 18px;
     margin-bottom: 41px;
   }
-  .banner_1__description h5 {
+  .banner_main__description h5 {
     font-size: 14px;
     line-height: 16px;
   }
-  .banner_1__description {
+  .banner_main__description {
     margin-top: 31px;
     margin-bottom: 15px;
   }
-  .banner_1__form-title h4 {
+  .banner_main__form-title h4 {
     font-size: 18px;
     line-height: 25px;
   }
-  .banner_1__download-button {
+  .banner_main__download-button {
     font-size: 18px;
     line-height: 25px;
   }
-  .banner_1__button {
+  .banner_main__button {
     margin-bottom: 131px;
     margin-top: 15px;
   }
-  .banner_1__form-fields-download-button {
+  .banner_main__form-fields-download-button {
     font-size: 15px;
     line-height: 20px;
   }
-  .banner_1__form-fields input[type="text"]::placeholder {
+  .banner_main__form-fields input[type="text"]::placeholder {
     font-size: 14px;
     line-height: 19px;
   }
-  .banner_1__form-fields input[type="text"] {
+  .banner_main__form-fields input[type="text"] {
     font-size: 14px;
     line-height: 19px;
   }
 }
 @media (max-width: 750px) {
-  .banner_1__text-part {
+  .banner_main__text-part {
     padding-left: 55px;
     width: 50%;
     padding-right: 10px;
   }
-  .banner_1__form-part {
+  .banner_main__form-part {
     width: 50%;
   }
 }
 @media (max-width: 600px) {
-  .banner_1__container {
+  .banner_main__container {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.5) 0%,
         rgba(0, 0, 0, 0.5) 50%
       ),
-      url(/fe-46-yarmak/exit_project/images/banner_1-mob.svg);
+      url(.//images/banner_1-mob.svg);
     min-height: 1005px;
     background-size: cover;
   }
-  .banner_1__icon {
+  .banner_main__icon {
     display: none;
   }
-  .banner_1__wrapper {
+  .banner_main__wrapper {
     flex-direction: column;
     margin: 0 15px;
   }
-  .banner_1__text-part {
+  .banner_main__text-part {
     padding: 0;
     width: 100%;
     align-items: center;
     text-align: center;
   }
-  .banner_1__form-part {
+  .banner_main__form-part {
     padding: 0;
   }
-  .banner_1__form-area{
+  .banner_main__form-area{
 max-width: 100%;
   }
-  .banner_1__title {
+  .banner_main__title {
     margin-top: 140px;
     margin-bottom: 44px;
   }
-  .banner_1__description {
+  .banner_main__description {
     margin-top: 42px;
     margin-bottom: 21px;
   }
-  .banner_1__button {
+  .banner_main__button {
     margin-bottom: 56px;
     margin-top: 21px;
     justify-content: center;
   }
-  .banner_1__form-title{
+  .banner_main__form-title{
     margin-bottom: 0;
   }
-  .banner_1__form-area{
+  .banner_main__form-area{
     min-height: 381px;
   }
-  .banner_1__form-part{
+  .banner_main__form-part{
     width: 100%;
     margin-bottom: 50px;
   }
-  .banner_1__form-fields-button{
+  .banner_main__form-fields-button{
     padding-top: 57px;
   }
 }
 @media (max-width: 400px){
-    .banner_1__title h1 {
+    .banner_main__title h1 {
         font-size: 30px;
         line-height: 36px;
       }
-      .banner_1__form-title h4 {
+      .banner_main__form-title h4 {
         font-size: 14px;
         line-height: 19px;
       }
-      .banner_1__button{
+      .banner_main__button{
         width: 100%;
       }
-      .banner_1__form-fields{
+      .banner_main__form-fields{
         padding: 0 20px 0 20px;
       }
-      .banner_1__form-area form {
+      .banner_main__form-area form {
         padding: 0;
       }
 }
 
 @media (max-width: 200px){
-    .banner_1__title h1 {
+    .banner_main__title h1 {
         font-size: 22px;
         line-height: 28px;
       }
-      .banner_1__form-title h4{
+      .banner_main__form-title h4{
         font-size: 12px;
         line-height: 16px;
       }
-      .banner_1__download-button{
+      .banner_main__download-button{
         font-size: 16px;
         line-height: 19px;
       }
-      .banner_1__form-fields{
+      .banner_main__form-fields{
         padding: 0;
       }
 }
