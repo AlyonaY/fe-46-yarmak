@@ -36,7 +36,6 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 58px;
-  max-width: 1170px;
   justify-content: space-between;
 }
 .about__item {

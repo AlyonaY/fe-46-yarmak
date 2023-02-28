@@ -9,6 +9,7 @@
 @import url(./footer.css);
 @import url(./banner_1.css);
 @import url(./reviews.css);
+@import url(./header.css);
 
 .separator{
     display: flex;

@@ -1,7 +1,6 @@
 .social_media {
   display: flex;
   margin: auto;
-  max-width: 1510px;
   min-height: 140px;
   background-color: #f8efef;
 }
@@ -9,7 +8,8 @@
 .social_media__container {
   width: 100%;
   padding: 0 170px;
-  display: flex;
+  display: flex;  
+  justify-content: center;
 }
 
 .social_media__wrapper {
