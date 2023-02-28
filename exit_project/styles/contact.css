@@ -103,7 +103,7 @@
   padding-right: 30px;
 }
 
-form {
+.contact__footer form {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -116,7 +116,7 @@ form {
   width: 50%;
 }
 
-input[type="text"]::placeholder {
+.contact__footer-fields input[type="text"]::placeholder {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -124,7 +124,7 @@ input[type="text"]::placeholder {
   color: #bdbdbd;
 }
 
-input[type="text"] {
+.contact__footer-fields input[type="text"] {
   border: 2px solid transparent;
   color: #ec7979;
   outline: none;
