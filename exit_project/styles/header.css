@@ -70,17 +70,19 @@ header {
     padding-right: 20px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .header__menu-items a {
     min-width: 94px;
   }
+  .header__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
   .header__container {
     padding-left: 20px;
-  }
-  .header__container {
     flex-direction: column;
     min-height: 300px;
   }

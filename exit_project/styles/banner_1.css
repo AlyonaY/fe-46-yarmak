@@ -238,7 +238,7 @@
         rgba(0, 0, 0, 0.5) 0%,
         rgba(0, 0, 0, 0.5) 50%
       ),
-      url(.//images/banner_1-mob.svg);
+      url(../images/banner_1-mob.svg);
     min-height: 1005px;
     background-size: cover;
   }
